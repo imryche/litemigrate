@@ -35,11 +35,7 @@ def migrate():
 
     print("Applying migrations:")
     for file in unapplied:
-        if file in migrations:
-            continue
-
         print(f"- {file}")
-
         with open(f"migrations/{file}") as f:
             c.executescript(f.read())
 

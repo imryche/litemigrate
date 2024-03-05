@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "litemigrate"
-version = "0.0.2"
+version = "0.0.3"
 authors = [{ name = "Dima Charnyshou", email = "imryche13@gmail.com" }]
 description = "Extremely simple SQLite migrations"
 readme = "README.md"
